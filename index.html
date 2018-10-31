@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barack Obama Quiz </title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        <h1> Barack Obama Quiz </h1>
+        <p> This is a quiz about former President Barack Obama (2008-2016). It will cover his life before and after the White House, and it is based on information from his <a href="https://en.wikipedia.org/wiki/Barack_Obama"> Wikipedia</a> page. </p>
+        <form>
+          <div class="form-group">
+            <label class="form-control-label" for="birthplace">What state was Obama born in?</label>
+            <input class="form-control" type="text" name="state" id="birthplace">
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="wife">What is the name of Obama's wife?</label>
+            <input class="form-control" type="text" name="wife" id="wife">
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="policy">What were some of Obama's main policy priorities during his term?</label>
+            <textarea class="form-control" name="policy" id="policy" rows="3"></textarea>
+         </div>
+
+         <div class="form-group">
+           <label>What state did Obama represent in the U.S. Senate? (Choose one.)</label>
+
+           <div class="form-check">
+             <label class="form-check-label">
+               <input class="form-check-input" type="radio" name="state" value="Hawaii">Hawaii
+             </label>
+           </div>
+
+           <div class="form-check">
+             <label class="form-check-label">
+               <input class="form-check-input" type="radio" name="state" value="Illinois">Illinois
+             </label>
+           </div>
+
+           <div class="form-check">
+             <label class="form-check-label">
+               <input class="form-check-input" type="radio" name="state" value="Washington">Washington
+             </label>
+           </div>
+
+           <div class="form-check">
+             <label class="form-check-label">
+               <input class="form-check-input" type="radio" name="state" value="New York">New York
+             </label>
+           </div>
+        </div>
+
+
+        <div class="form-group">
+          <label>Which of the following bills were passed while Obama was president? (Check all that apply.)</label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="policy" value="Affordable Care Act">Affordable Care Act
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="policy" value="Dodd–Frank Wall Street Reform and Consumer Protection Act">Dodd–Frank Wall Street Reform and Consumer Protection Act
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="policy" value="Tax Cuts and Jobs Act">Tax Cuts and Jobs Act
+            </label>
+          </div>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="policy" value="The Lilly Ledbetter Fair Pay Act">The Lilly Ledbetter Fair Pay Act
+            </label>
+          </div>
+       </div>
+
+       <div class="form-group">
+         <label class="form-control-label">Which of the following Democrats did not run for president in 2008? (Select one.)</label>
+         <select class="form-control" name="candidates">
+           <option>Barack Obama</option>
+           <option>Hillary Clinton</option>
+           <option>John Edwards</option>
+           <option>Joe Biden</option>
+           <option>Nancy Pelosi</option>
+           <option>Chris Dodd</option>
+        </select>
+       </div>
+
+    <div>
+      <button class="btn btn-primary" type="submit" value="submit">Submit</button>
+      <button class="btn btn-danger" type="reset" value="reset">Start over</button>
+    </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
