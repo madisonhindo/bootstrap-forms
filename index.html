@@ -11,11 +11,11 @@
     <div class="row">
       <div class="col-sm-12 col-md-7">
         <h1> Barack Obama Quiz </h1>
-        <p> This is a quiz about former President Barack Obama (2008-2016). It will cover his life before and after the White House, and it is based on information from his <a href="https://en.wikipedia.org/wiki/Barack_Obama"> Wikipedia</a> page. </p>
+        <p> This is a quiz about former President Barack Obama (2008-2016). It will cover his life before, during and after the White House. It is based on information from his <a href="https://en.wikipedia.org/wiki/Barack_Obama"> Wikipedia</a> page. </p>
         <form>
           <div class="form-group">
             <label class="form-control-label" for="birthplace">What state was Obama born in?</label>
-            <input class="form-control" type="text" name="state" id="birthplace">
+            <input class="form-control" type="text" name="place" id="birthplace">
           </div>
 
           <div class="form-group">
@@ -24,8 +24,8 @@
           </div>
 
           <div class="form-group">
-            <label class="form-control-label" for="policy">What were some of Obama's main policy priorities during his term?</label>
-            <textarea class="form-control" name="policy" id="policy" rows="3"></textarea>
+            <label class="form-control-label" for="legislation">What were some of Obama's main legislative priorities during his term?</label>
+            <textarea class="form-control" name="legislation" id="legislation" rows="3"></textarea>
          </div>
 
          <div class="form-group">
@@ -88,24 +88,22 @@
        <div class="form-group">
          <label class="form-control-label">Which of the following Democrats did not run for president in 2008? (Select one.)</label>
          <select class="form-control" name="candidates">
-           <option>Barack Obama</option>
-           <option>Hillary Clinton</option>
-           <option>John Edwards</option>
-           <option>Joe Biden</option>
-           <option>Nancy Pelosi</option>
-           <option>Chris Dodd</option>
+           <option value="Barack Obama">Barack Obama</option>
+           <option value="Hillary Clinton">Hillary Clinton</option>
+           <option value="John Edwards">John Edwards</option>
+           <option value="Joe Biden">Joe Biden</option>
+           <option value="Nancy Pelosi">Nancy Pelosi</option>
+           <option value="Chris Dodd">Chris Dodd</option>
         </select>
        </div>
 
     <div>
-      <button class="btn btn-primary" type="submit" value="submit">Submit</button>
-      <button class="btn btn-danger" type="reset" value="reset">Start over</button>
+      <button class="btn btn-primary mb-2" type="submit" value="submit">Submit</button>
+      <button class="btn btn-danger mb-2" type="reset" value="reset">Start over</button>
     </div>
         </form>
       </div>
     </div>
   </div>
-
-
 </body>
 </html>
